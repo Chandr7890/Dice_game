@@ -7,7 +7,7 @@
  function fun(){
   if(c<6 && c == c1){
   var rNo1 =Math.floor(Math.random()*6)+1;
-  var replace1 = "images/"+"dice"+rNo1+".png";
+  var replace1 ="dice"+rNo1+".png";
   var image1 = document.querySelectorAll("img")[0];
   image1.setAttribute("src",replace1);
   c = c+1;
@@ -30,7 +30,7 @@
  function fun1(){
   if(c1<6 && c-1 ==c1){
   var rNo2 =Math.floor(Math.random()*6)+1;
-  var replace2 = "images/"+"dice"+rNo2+".png";
+  var replace2 ="dice"+rNo2+".png";
   var image2= document.querySelectorAll("img")[1];
   image2.setAttribute("src",replace2);
   c1 = c1+1;
